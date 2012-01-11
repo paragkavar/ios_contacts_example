@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OAuthXSDK.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    NSString *photosPath_;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
@@ -18,5 +21,10 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
+@property(nonatomic, retain) OAuthX *oauthx;
+@property(nonatomic, retain) NSOperationQueue *operationQueue;
+
+- (NSString *) photosPath;
 
 @end

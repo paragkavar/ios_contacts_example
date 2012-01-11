@@ -17,8 +17,42 @@
 		4CB2878A14BCF648005C47A9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB2878814BCF648005C47A9 /* MainStoryboard_iPhone.storyboard */; };
 		4CB2878D14BCF648005C47A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB2878B14BCF648005C47A9 /* MainStoryboard_iPad.storyboard */; };
 		4CB2879014BCF648005C47A9 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2878E14BCF648005C47A9 /* Contacts.xcdatamodeld */; };
-		4CB2879314BCF648005C47A9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2879214BCF648005C47A9 /* MasterViewController.m */; };
-		4CB2879614BCF648005C47A9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2879514BCF648005C47A9 /* DetailViewController.m */; };
+		4CB2885914BD058D005C47A9 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2883714BD058C005C47A9 /* NSObject+SBJson.m */; };
+		4CB2885A14BD058D005C47A9 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2883A14BD058D005C47A9 /* SBJsonParser.m */; };
+		4CB2885B14BD058D005C47A9 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2883C14BD058D005C47A9 /* SBJsonStreamParser.m */; };
+		4CB2885C14BD058D005C47A9 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2883E14BD058D005C47A9 /* SBJsonStreamParserAccumulator.m */; };
+		4CB2885D14BD058D005C47A9 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2884014BD058D005C47A9 /* SBJsonStreamParserAdapter.m */; };
+		4CB2885E14BD058D005C47A9 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2884214BD058D005C47A9 /* SBJsonStreamParserState.m */; };
+		4CB2885F14BD058D005C47A9 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2884414BD058D005C47A9 /* SBJsonStreamWriter.m */; };
+		4CB2886014BD058D005C47A9 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2884614BD058D005C47A9 /* SBJsonStreamWriterAccumulator.m */; };
+		4CB2886114BD058D005C47A9 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2884814BD058D005C47A9 /* SBJsonStreamWriterState.m */; };
+		4CB2886214BD058D005C47A9 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2884A14BD058D005C47A9 /* SBJsonTokeniser.m */; };
+		4CB2886314BD058D005C47A9 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2884C14BD058D005C47A9 /* SBJsonUTF8Stream.m */; };
+		4CB2886414BD058D005C47A9 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2884E14BD058D005C47A9 /* SBJsonWriter.m */; };
+		4CB2886514BD058D005C47A9 /* OAuthX.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2885114BD058D005C47A9 /* OAuthX.m */; };
+		4CB2886614BD058D005C47A9 /* OAuthXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2885314BD058D005C47A9 /* OAuthXRequest.m */; };
+		4CB2886714BD058D005C47A9 /* OAuthXResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2885514BD058D005C47A9 /* OAuthXResponse.m */; };
+		4CB2886814BD058D005C47A9 /* OAuthXToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2885814BD058D005C47A9 /* OAuthXToken.m */; };
+		4CB2886F14BD0F23005C47A9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB2886D14BD0F23005C47A9 /* AddressBook.framework */; };
+		4CB2887014BD0F23005C47A9 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB2886E14BD0F23005C47A9 /* AddressBookUI.framework */; };
+		4CB2887A14BD0FAF005C47A9 /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2887914BD0FAF005C47A9 /* UIHelper.m */; };
+		4CB2888714BD0FE6005C47A9 /* ImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2887C14BD0FE6005C47A9 /* ImportOperation.m */; };
+		4CB2888814BD0FE6005C47A9 /* FacebookImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2887E14BD0FE6005C47A9 /* FacebookImportOperation.m */; };
+		4CB2888914BD0FE6005C47A9 /* AddressBookImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2888014BD0FE6005C47A9 /* AddressBookImportOperation.m */; };
+		4CB2888A14BD0FE6005C47A9 /* GeniImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2888214BD0FE6005C47A9 /* GeniImportOperation.m */; };
+		4CB2888B14BD0FE6005C47A9 /* GoogleImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2888414BD0FE6005C47A9 /* GoogleImportOperation.m */; };
+		4CB2888C14BD0FE6005C47A9 /* MicrosoftImportOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2888614BD0FE6005C47A9 /* MicrosoftImportOperation.m */; };
+		4CB2888F14BD0FF1005C47A9 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2888E14BD0FF1005C47A9 /* Contact.m */; };
+		4CB2889614BD0FFD005C47A9 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2889114BD0FFD005C47A9 /* ContactsViewController.m */; };
+		4CB2889C14BD100D005C47A9 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2889B14BD100D005C47A9 /* ContactTableViewCell.m */; };
+		4CB288A514BD1020005C47A9 /* microsoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB2889D14BD1020005C47A9 /* microsoft.png */; };
+		4CB288A614BD1020005C47A9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB2889E14BD1020005C47A9 /* icon.png */; };
+		4CB288A714BD1020005C47A9 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB2889F14BD1020005C47A9 /* icon@2x.png */; };
+		4CB288A814BD1020005C47A9 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB288A014BD1020005C47A9 /* google.png */; };
+		4CB288A914BD1020005C47A9 /* address_book.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB288A114BD1020005C47A9 /* address_book.png */; };
+		4CB288AA14BD1020005C47A9 /* mugshot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CB288A214BD1020005C47A9 /* mugshot.gif */; };
+		4CB288AB14BD1020005C47A9 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB288A314BD1020005C47A9 /* facebook.png */; };
+		4CB288AC14BD1020005C47A9 /* geni.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB288A414BD1020005C47A9 /* geni.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,19 +61,80 @@
 		4CB2877614BCF648005C47A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CB2877814BCF648005C47A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4CB2877A14BCF648005C47A9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		4CB2877E14BCF648005C47A9 /* Contacts-Info.plist */ = {isa = PBXFileReference; path = "Contacts-Info.plist"; sourceTree = "<group>"; };
+		4CB2877E14BCF648005C47A9 /* Contacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Contacts-Info.plist"; sourceTree = "<group>"; };
 		4CB2878014BCF648005C47A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CB2878214BCF648005C47A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CB2878414BCF648005C47A9 /* Contacts-Prefix.pch */ = {isa = PBXFileReference; path = "Contacts-Prefix.pch"; sourceTree = "<group>"; };
-		4CB2878514BCF648005C47A9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CB2878414BCF648005C47A9 /* Contacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		4CB2878514BCF648005C47A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CB2878614BCF648005C47A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4CB2878914BCF648005C47A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4CB2878C14BCF648005C47A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		4CB2878F14BCF648005C47A9 /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
-		4CB2879114BCF648005C47A9 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
-		4CB2879214BCF648005C47A9 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		4CB2879414BCF648005C47A9 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
-		4CB2879514BCF648005C47A9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4CB2883614BD058C005C47A9 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		4CB2883714BD058C005C47A9 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		4CB2883814BD058C005C47A9 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		4CB2883914BD058D005C47A9 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		4CB2883A14BD058D005C47A9 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		4CB2883B14BD058D005C47A9 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		4CB2883C14BD058D005C47A9 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		4CB2883D14BD058D005C47A9 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		4CB2883E14BD058D005C47A9 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		4CB2883F14BD058D005C47A9 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		4CB2884014BD058D005C47A9 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		4CB2884114BD058D005C47A9 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		4CB2884214BD058D005C47A9 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		4CB2884314BD058D005C47A9 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		4CB2884414BD058D005C47A9 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		4CB2884514BD058D005C47A9 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		4CB2884614BD058D005C47A9 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		4CB2884714BD058D005C47A9 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		4CB2884814BD058D005C47A9 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		4CB2884914BD058D005C47A9 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		4CB2884A14BD058D005C47A9 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		4CB2884B14BD058D005C47A9 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		4CB2884C14BD058D005C47A9 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		4CB2884D14BD058D005C47A9 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		4CB2884E14BD058D005C47A9 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		4CB2884F14BD058D005C47A9 /* OAuthX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuthX-Prefix.pch"; sourceTree = "<group>"; };
+		4CB2885014BD058D005C47A9 /* OAuthX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthX.h; sourceTree = "<group>"; };
+		4CB2885114BD058D005C47A9 /* OAuthX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthX.m; sourceTree = "<group>"; };
+		4CB2885214BD058D005C47A9 /* OAuthXRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthXRequest.h; sourceTree = "<group>"; };
+		4CB2885314BD058D005C47A9 /* OAuthXRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthXRequest.m; sourceTree = "<group>"; };
+		4CB2885414BD058D005C47A9 /* OAuthXResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthXResponse.h; sourceTree = "<group>"; };
+		4CB2885514BD058D005C47A9 /* OAuthXResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthXResponse.m; sourceTree = "<group>"; };
+		4CB2885614BD058D005C47A9 /* OAuthXSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthXSDK.h; sourceTree = "<group>"; };
+		4CB2885714BD058D005C47A9 /* OAuthXToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthXToken.h; sourceTree = "<group>"; };
+		4CB2885814BD058D005C47A9 /* OAuthXToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthXToken.m; sourceTree = "<group>"; };
+		4CB2886D14BD0F23005C47A9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4CB2886E14BD0F23005C47A9 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		4CB2887814BD0FAF005C47A9 /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
+		4CB2887914BD0FAF005C47A9 /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
+		4CB2887B14BD0FE6005C47A9 /* ImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportOperation.h; sourceTree = "<group>"; };
+		4CB2887C14BD0FE6005C47A9 /* ImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportOperation.m; sourceTree = "<group>"; };
+		4CB2887D14BD0FE6005C47A9 /* FacebookImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookImportOperation.h; sourceTree = "<group>"; };
+		4CB2887E14BD0FE6005C47A9 /* FacebookImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookImportOperation.m; sourceTree = "<group>"; };
+		4CB2887F14BD0FE6005C47A9 /* AddressBookImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookImportOperation.h; sourceTree = "<group>"; };
+		4CB2888014BD0FE6005C47A9 /* AddressBookImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookImportOperation.m; sourceTree = "<group>"; };
+		4CB2888114BD0FE6005C47A9 /* GeniImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeniImportOperation.h; sourceTree = "<group>"; };
+		4CB2888214BD0FE6005C47A9 /* GeniImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeniImportOperation.m; sourceTree = "<group>"; };
+		4CB2888314BD0FE6005C47A9 /* GoogleImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleImportOperation.h; sourceTree = "<group>"; };
+		4CB2888414BD0FE6005C47A9 /* GoogleImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleImportOperation.m; sourceTree = "<group>"; };
+		4CB2888514BD0FE6005C47A9 /* MicrosoftImportOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrosoftImportOperation.h; sourceTree = "<group>"; };
+		4CB2888614BD0FE6005C47A9 /* MicrosoftImportOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrosoftImportOperation.m; sourceTree = "<group>"; };
+		4CB2888D14BD0FF1005C47A9 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		4CB2888E14BD0FF1005C47A9 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		4CB2889014BD0FFD005C47A9 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		4CB2889114BD0FFD005C47A9 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		4CB2889A14BD100D005C47A9 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		4CB2889B14BD100D005C47A9 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		4CB2889D14BD1020005C47A9 /* microsoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microsoft.png; sourceTree = "<group>"; };
+		4CB2889E14BD1020005C47A9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4CB2889F14BD1020005C47A9 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		4CB288A014BD1020005C47A9 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		4CB288A114BD1020005C47A9 /* address_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = address_book.png; sourceTree = "<group>"; };
+		4CB288A214BD1020005C47A9 /* mugshot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mugshot.gif; sourceTree = "<group>"; };
+		4CB288A314BD1020005C47A9 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		4CB288A414BD1020005C47A9 /* geni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geni.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +142,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB2886F14BD0F23005C47A9 /* AddressBook.framework in Frameworks */,
+				4CB2887014BD0F23005C47A9 /* AddressBookUI.framework in Frameworks */,
 				4CB2877514BCF648005C47A9 /* UIKit.framework in Frameworks */,
 				4CB2877714BCF648005C47A9 /* Foundation.framework in Frameworks */,
 				4CB2877914BCF648005C47A9 /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +174,8 @@
 		4CB2877314BCF648005C47A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CB2886D14BD0F23005C47A9 /* AddressBook.framework */,
+				4CB2886E14BD0F23005C47A9 /* AddressBookUI.framework */,
 				4CB2877414BCF648005C47A9 /* UIKit.framework */,
 				4CB2877614BCF648005C47A9 /* Foundation.framework */,
 				4CB2877814BCF648005C47A9 /* CoreGraphics.framework */,
@@ -88,14 +187,16 @@
 		4CB2877C14BCF648005C47A9 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				4CB2878514BCF648005C47A9 /* AppDelegate.h */,
-				4CB2878614BCF648005C47A9 /* AppDelegate.m */,
+				4CB2887714BD0F92005C47A9 /* Resources */,
+				4CB2887614BD0F85005C47A9 /* Views */,
+				4CB2887514BD0F77005C47A9 /* Delegates */,
+				4CB2887414BD0F63005C47A9 /* Controllers */,
+				4CB2887314BD0F56005C47A9 /* Models */,
+				4CB2887214BD0F46005C47A9 /* Operations */,
+				4CB2887114BD0F34005C47A9 /* Helpers */,
+				4CB2883414BD058C005C47A9 /* OAuthX */,
 				4CB2878814BCF648005C47A9 /* MainStoryboard_iPhone.storyboard */,
 				4CB2878B14BCF648005C47A9 /* MainStoryboard_iPad.storyboard */,
-				4CB2879114BCF648005C47A9 /* MasterViewController.h */,
-				4CB2879214BCF648005C47A9 /* MasterViewController.m */,
-				4CB2879414BCF648005C47A9 /* DetailViewController.h */,
-				4CB2879514BCF648005C47A9 /* DetailViewController.m */,
 				4CB2878E14BCF648005C47A9 /* Contacts.xcdatamodeld */,
 				4CB2877D14BCF648005C47A9 /* Supporting Files */,
 			);
@@ -111,6 +212,136 @@
 				4CB2878414BCF648005C47A9 /* Contacts-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CB2883414BD058C005C47A9 /* OAuthX */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2883514BD058C005C47A9 /* JSON */,
+				4CB2884F14BD058D005C47A9 /* OAuthX-Prefix.pch */,
+				4CB2885014BD058D005C47A9 /* OAuthX.h */,
+				4CB2885114BD058D005C47A9 /* OAuthX.m */,
+				4CB2885214BD058D005C47A9 /* OAuthXRequest.h */,
+				4CB2885314BD058D005C47A9 /* OAuthXRequest.m */,
+				4CB2885414BD058D005C47A9 /* OAuthXResponse.h */,
+				4CB2885514BD058D005C47A9 /* OAuthXResponse.m */,
+				4CB2885614BD058D005C47A9 /* OAuthXSDK.h */,
+				4CB2885714BD058D005C47A9 /* OAuthXToken.h */,
+				4CB2885814BD058D005C47A9 /* OAuthXToken.m */,
+			);
+			name = OAuthX;
+			path = ../../OAuthX/OAuthX;
+			sourceTree = "<group>";
+		};
+		4CB2883514BD058C005C47A9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2883614BD058C005C47A9 /* NSObject+SBJson.h */,
+				4CB2883714BD058C005C47A9 /* NSObject+SBJson.m */,
+				4CB2883814BD058C005C47A9 /* SBJson.h */,
+				4CB2883914BD058D005C47A9 /* SBJsonParser.h */,
+				4CB2883A14BD058D005C47A9 /* SBJsonParser.m */,
+				4CB2883B14BD058D005C47A9 /* SBJsonStreamParser.h */,
+				4CB2883C14BD058D005C47A9 /* SBJsonStreamParser.m */,
+				4CB2883D14BD058D005C47A9 /* SBJsonStreamParserAccumulator.h */,
+				4CB2883E14BD058D005C47A9 /* SBJsonStreamParserAccumulator.m */,
+				4CB2883F14BD058D005C47A9 /* SBJsonStreamParserAdapter.h */,
+				4CB2884014BD058D005C47A9 /* SBJsonStreamParserAdapter.m */,
+				4CB2884114BD058D005C47A9 /* SBJsonStreamParserState.h */,
+				4CB2884214BD058D005C47A9 /* SBJsonStreamParserState.m */,
+				4CB2884314BD058D005C47A9 /* SBJsonStreamWriter.h */,
+				4CB2884414BD058D005C47A9 /* SBJsonStreamWriter.m */,
+				4CB2884514BD058D005C47A9 /* SBJsonStreamWriterAccumulator.h */,
+				4CB2884614BD058D005C47A9 /* SBJsonStreamWriterAccumulator.m */,
+				4CB2884714BD058D005C47A9 /* SBJsonStreamWriterState.h */,
+				4CB2884814BD058D005C47A9 /* SBJsonStreamWriterState.m */,
+				4CB2884914BD058D005C47A9 /* SBJsonTokeniser.h */,
+				4CB2884A14BD058D005C47A9 /* SBJsonTokeniser.m */,
+				4CB2884B14BD058D005C47A9 /* SBJsonUTF8Stream.h */,
+				4CB2884C14BD058D005C47A9 /* SBJsonUTF8Stream.m */,
+				4CB2884D14BD058D005C47A9 /* SBJsonWriter.h */,
+				4CB2884E14BD058D005C47A9 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		4CB2887114BD0F34005C47A9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2887814BD0FAF005C47A9 /* UIHelper.h */,
+				4CB2887914BD0FAF005C47A9 /* UIHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		4CB2887214BD0F46005C47A9 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2887B14BD0FE6005C47A9 /* ImportOperation.h */,
+				4CB2887C14BD0FE6005C47A9 /* ImportOperation.m */,
+				4CB2887D14BD0FE6005C47A9 /* FacebookImportOperation.h */,
+				4CB2887E14BD0FE6005C47A9 /* FacebookImportOperation.m */,
+				4CB2887F14BD0FE6005C47A9 /* AddressBookImportOperation.h */,
+				4CB2888014BD0FE6005C47A9 /* AddressBookImportOperation.m */,
+				4CB2888114BD0FE6005C47A9 /* GeniImportOperation.h */,
+				4CB2888214BD0FE6005C47A9 /* GeniImportOperation.m */,
+				4CB2888314BD0FE6005C47A9 /* GoogleImportOperation.h */,
+				4CB2888414BD0FE6005C47A9 /* GoogleImportOperation.m */,
+				4CB2888514BD0FE6005C47A9 /* MicrosoftImportOperation.h */,
+				4CB2888614BD0FE6005C47A9 /* MicrosoftImportOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		4CB2887314BD0F56005C47A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2888D14BD0FF1005C47A9 /* Contact.h */,
+				4CB2888E14BD0FF1005C47A9 /* Contact.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4CB2887414BD0F63005C47A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2889014BD0FFD005C47A9 /* ContactsViewController.h */,
+				4CB2889114BD0FFD005C47A9 /* ContactsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4CB2887514BD0F77005C47A9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2878514BCF648005C47A9 /* AppDelegate.h */,
+				4CB2878614BCF648005C47A9 /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		4CB2887614BD0F85005C47A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2889A14BD100D005C47A9 /* ContactTableViewCell.h */,
+				4CB2889B14BD100D005C47A9 /* ContactTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4CB2887714BD0F92005C47A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CB2889D14BD1020005C47A9 /* microsoft.png */,
+				4CB2889E14BD1020005C47A9 /* icon.png */,
+				4CB2889F14BD1020005C47A9 /* icon@2x.png */,
+				4CB288A014BD1020005C47A9 /* google.png */,
+				4CB288A114BD1020005C47A9 /* address_book.png */,
+				4CB288A214BD1020005C47A9 /* mugshot.gif */,
+				4CB288A314BD1020005C47A9 /* facebook.png */,
+				4CB288A414BD1020005C47A9 /* geni.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +398,14 @@
 				4CB2878114BCF648005C47A9 /* InfoPlist.strings in Resources */,
 				4CB2878A14BCF648005C47A9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				4CB2878D14BCF648005C47A9 /* MainStoryboard_iPad.storyboard in Resources */,
+				4CB288A514BD1020005C47A9 /* microsoft.png in Resources */,
+				4CB288A614BD1020005C47A9 /* icon.png in Resources */,
+				4CB288A714BD1020005C47A9 /* icon@2x.png in Resources */,
+				4CB288A814BD1020005C47A9 /* google.png in Resources */,
+				4CB288A914BD1020005C47A9 /* address_book.png in Resources */,
+				4CB288AA14BD1020005C47A9 /* mugshot.gif in Resources */,
+				4CB288AB14BD1020005C47A9 /* facebook.png in Resources */,
+				4CB288AC14BD1020005C47A9 /* geni.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,8 +419,32 @@
 				4CB2878314BCF648005C47A9 /* main.m in Sources */,
 				4CB2878714BCF648005C47A9 /* AppDelegate.m in Sources */,
 				4CB2879014BCF648005C47A9 /* Contacts.xcdatamodeld in Sources */,
-				4CB2879314BCF648005C47A9 /* MasterViewController.m in Sources */,
-				4CB2879614BCF648005C47A9 /* DetailViewController.m in Sources */,
+				4CB2885914BD058D005C47A9 /* NSObject+SBJson.m in Sources */,
+				4CB2885A14BD058D005C47A9 /* SBJsonParser.m in Sources */,
+				4CB2885B14BD058D005C47A9 /* SBJsonStreamParser.m in Sources */,
+				4CB2885C14BD058D005C47A9 /* SBJsonStreamParserAccumulator.m in Sources */,
+				4CB2885D14BD058D005C47A9 /* SBJsonStreamParserAdapter.m in Sources */,
+				4CB2885E14BD058D005C47A9 /* SBJsonStreamParserState.m in Sources */,
+				4CB2885F14BD058D005C47A9 /* SBJsonStreamWriter.m in Sources */,
+				4CB2886014BD058D005C47A9 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				4CB2886114BD058D005C47A9 /* SBJsonStreamWriterState.m in Sources */,
+				4CB2886214BD058D005C47A9 /* SBJsonTokeniser.m in Sources */,
+				4CB2886314BD058D005C47A9 /* SBJsonUTF8Stream.m in Sources */,
+				4CB2886414BD058D005C47A9 /* SBJsonWriter.m in Sources */,
+				4CB2886514BD058D005C47A9 /* OAuthX.m in Sources */,
+				4CB2886614BD058D005C47A9 /* OAuthXRequest.m in Sources */,
+				4CB2886714BD058D005C47A9 /* OAuthXResponse.m in Sources */,
+				4CB2886814BD058D005C47A9 /* OAuthXToken.m in Sources */,
+				4CB2887A14BD0FAF005C47A9 /* UIHelper.m in Sources */,
+				4CB2888714BD0FE6005C47A9 /* ImportOperation.m in Sources */,
+				4CB2888814BD0FE6005C47A9 /* FacebookImportOperation.m in Sources */,
+				4CB2888914BD0FE6005C47A9 /* AddressBookImportOperation.m in Sources */,
+				4CB2888A14BD0FE6005C47A9 /* GeniImportOperation.m in Sources */,
+				4CB2888B14BD0FE6005C47A9 /* GoogleImportOperation.m in Sources */,
+				4CB2888C14BD0FE6005C47A9 /* MicrosoftImportOperation.m in Sources */,
+				4CB2888F14BD0FF1005C47A9 /* Contact.m in Sources */,
+				4CB2889614BD0FFD005C47A9 /* ContactsViewController.m in Sources */,
+				4CB2889C14BD100D005C47A9 /* ContactTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
